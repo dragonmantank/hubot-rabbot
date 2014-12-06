@@ -54,4 +54,4 @@ module.exports = (robot) ->
     msg.reply msg.random maxims
 
   robot.hear /silly rabbot/, ->
-    msg.send "Trix are for kids."
+    msg.reply "Trix are for kids."
