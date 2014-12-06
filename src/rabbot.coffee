@@ -19,6 +19,7 @@ people_who_get_it =
   'coderebbetzin': 'Of course she does. That was a dumb question.'
   'dragonmantank': 'I am programmed to say he gets it.'
   'dcousineau': 'He is one with the brisket.'
+  'MANCHUCK': 'As the The secretary of WurstCon, he gets it '
 
 maxims = [
   'Cultivate for yourself a mentor; Acquire for yourself a colleague.',
