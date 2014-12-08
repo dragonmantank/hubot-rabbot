@@ -1,28 +1,21 @@
 {
   "name": "hubot-rabbot",
   "description": "A robotic helper for @coderabbi and his IRC channel",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "author": "Chris Tankersley <chris@ctankersley.com>",
   "license": "MIT",
-
   "keywords": "hubot, hubot-scripts",
-
   "repository": {
     "type": "git",
     "url": "git://github.com/hubot-scripts/hubot-rabbot.git"
   },
-
   "bugs": {
     "url": "https://github.com/hubot-scripts/hubot-rabbot/issues"
   },
-
-  "dependencies": {
-  },
-
+  "dependencies": {},
   "peerDependencies": {
     "hubot": "2.x"
   },
-
   "devDependencies": {
     "hubot": "2.x",
     "mocha": "*",
@@ -35,9 +28,7 @@
     "grunt-contrib-watch": "~0.5.3",
     "hubot-mock-adapter": "^1.0.0"
   },
-
   "main": "index.coffee",
-
   "scripts": {
     "test": "grunt test"
   }
