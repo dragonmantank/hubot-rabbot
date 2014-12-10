@@ -14,12 +14,13 @@
 # Author:
 #   Chris Tankersley <chris@ctankersley.com>
 
-people_who_get_it = 
+people_who_get_it = {
   'coderabbi': 'Of course coderabbi gets it, it is his channel.'
   'coderebbetzin': 'Of course she does. That was a dumb question.'
   'dragonmantank': 'I am programmed to say he gets it.'
   'dcousineau': 'He is one with the brisket.'
   'MANCHUCK': 'As the The secretary of WurstCon, he gets it '
+}
 
 maxims = [
   'Cultivate for yourself a mentor; Acquire for yourself a colleague.',
@@ -40,8 +41,8 @@ module.exports = (robot) ->
         msg.reply 'PHP Fatal Error: Nesting level too deep'
         return
 
-      if people_who_get_it.handle?
-        msg.reply people_who_get_it.handle
+      if people_who_get_it[handle]
+        msg.reply people_who_get_it[handle]
         return
 
       decision = (Math.floor((Math.random() * 10) + 1)) % 2
