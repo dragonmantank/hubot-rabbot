@@ -20,6 +20,7 @@ people_who_get_it = {
   'dragonmantank': 'I am programmed to say he gets it.'
   'dcousineau': 'He is one with the brisket.'
   'MANCHUCK': 'As the The secretary of WurstCon, he gets it '
+  'GeeH': 'Are you freaking kidding me?'
 }
 
 maxims = [
