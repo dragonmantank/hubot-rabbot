@@ -21,6 +21,7 @@ people_who_get_it = {
   'dcousineau': 'He is one with the brisket.'
   'MANCHUCK': 'As the The secretary of WurstCon, he gets it '
   'GeeH': 'Are you freaking kidding me?'
+  'jcarouth': 'It is decidedly so.'
 }
 
 maxims = [
